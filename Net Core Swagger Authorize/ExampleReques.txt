@@ -23,3 +23,11 @@ curl -X 'GET' \
   
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjM5MzgwODksImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjUwMDEiLCJhdW
 QiOiJodHRwczovL2xvY2FsaG9zdDo1MDAxIn0.555OM2DM4FAnJbmr_pjqndzVEc7xPpe8GsHHsT5kXsY
+
+
+
+[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+    public IEnumerable<UserViewModel> Get()
+    {
+        return somedata;
+    }
