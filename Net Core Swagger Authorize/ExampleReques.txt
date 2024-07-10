@@ -1,0 +1,25 @@
+﻿------------  Type = SecuritySchemeType.ApiKey------------
+
+curl -X 'GET' \
+  'https://localhost:7136/WeatherForecast/1' \
+  -H 'accept: text/plain' \
+  -H 'Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjA2NDEzMTgsImlzcyI6IkNvb2xzU29mdFdhcmUiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo3MTM2In0.mhnWcYJM6cM6EiJMs5ACwG_gjV6CPDZw9UTZjXQBvwY'
+
+
+  // Auth Request Format
+  
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjM5MzgwODksImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjUwMDEiLCJhdW
+QiOiJodHRwczovL2xvY2FsaG9zdDo1MDAxIn0.555OM2DM4FAnJbmr_pjqndzVEc7xPpe8GsHHsT5kXsY
+
+
+-------------- Type = SecuritySchemeType.Http, ----------
+curl -X 'GET' \
+  'https://localhost:7136/WeatherForecast/1' \
+  -H 'accept: text/plain' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjA2NDE2MDMsImlzcyI6IkNvb2xzU29mdFdhcmUiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo3MTM2In0.lZRemnveUAcEo75SMwIXRoD7emqKb9ZlloH2-PoNPa0'
+
+
+// Auth Request Format
+  
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjM5MzgwODksImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjUwMDEiLCJhdW
+QiOiJodHRwczovL2xvY2FsaG9zdDo1MDAxIn0.555OM2DM4FAnJbmr_pjqndzVEc7xPpe8GsHHsT5kXsY

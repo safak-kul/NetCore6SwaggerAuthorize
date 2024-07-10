@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net Core Swagger Authorize", "Net Core Swagger Authorize\Net Core Swagger Authorize.csproj", "{F03CA85E-B71A-46E2-A173-2B16D8A0EAEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F03CA85E-B71A-46E2-A173-2B16D8A0EAEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03CA85E-B71A-46E2-A173-2B16D8A0EAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03CA85E-B71A-46E2-A173-2B16D8A0EAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03CA85E-B71A-46E2-A173-2B16D8A0EAEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB47A9DC-E7C2-44E5-B93D-C5E3926FAB35}
+	EndGlobalSection
+EndGlobal
